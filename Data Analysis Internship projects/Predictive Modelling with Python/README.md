@@ -8,8 +8,7 @@
 - `Project Files/` — input datasets (see **Data access**)
 
 ## Data access
-- Place the dataset(s) in `./Project Files/`  
-  Example: `Project Files/streamworks_user_data.csv`
+- `Project Files/streamworks_user_data.csv`
 
 ## How to run
 ```bash
