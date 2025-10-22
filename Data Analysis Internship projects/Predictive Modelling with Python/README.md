@@ -3,13 +3,16 @@
 **Goal:** Build and evaluate a churn-propensity model for **StreamWorks Media**. The workflow covers data loading, cleaning, feature engineering, train/validation split, model training, evaluation (ROC-AUC, precision/recall/F1, confusion matrix), threshold tuning, and actionable insights.
 
 ## Files in this folder
-- `Week 3 - Churn Prediction for StreamWorks Media.ipynb` — main notebook (ETL ➜ modelling ➜ evaluation)
-- `Week 3 Churn Prediction for StreamWorks Media.pdf` — report/slide deck for this task
-- `Project Files/` — input dataset folder used by the notebook (see **Data access**)
+- `Week 3 - Churn Prediction for StreamWorks Media.ipynb` — main notebook (ETL → modelling → evaluation)
+- `Week 3 Churn Prediction for StreamWorks Media.pdf` — report/slide deck
+- `Project Files/` — input datasets (see **Data access**)
 
 ## Data access
-- streamworks_user_data.csv' - file used for this project task
+- Place the dataset(s) in `./Project Files/`  
+  Example: `Project Files/streamworks_user_data.csv`
 
+## How to run
+```bash
 # from the repo root, cd into the Week 03 folder
 cd "Data Analysis Internship projects/Predictive Modelling with Python"
 
@@ -30,7 +33,7 @@ python -m ipykernel install --user --name week3 --display-name "Python (week3)"
 # 4) Launch Jupyter
 jupyter lab .    # or: jupyter notebook
 
-# Create a file called requirements.txt with the following libraries
+requirements.txt
 pandas
 numpy
 scikit-learn
@@ -38,5 +41,3 @@ matplotlib
 seaborn
 jupyter
 ipykernel
-
-
