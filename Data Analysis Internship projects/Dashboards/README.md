@@ -1,25 +1,21 @@
 # Week 04 — Dashboards & AI
 
-**Goal:** Explore and communicate key business metrics using interactive dashboards.
-This week, package the data prep notebook(s), Tableau workbook, and report in a single archive so others can reproduce the exports and view the dashboards.
-
----
+**Goal:** Explore and communicate KPIs using notebooks + Tableau dashboards. All inputs (notebooks, datasets, Tableau workbook) are packaged in `project files.zip`. The PDF contains the online Tableau link.
 
 ## Files in this folder
-- `project files.zip` — contains notebooks, datasets, and the Tableau workbook (and/or data extracts)
-- `Week4-Project Brief-Dashboards & AI.pdf` — project brief with the **Tableau dashboard link**
+- `project files.zip` — notebooks, datasets, Tableau workbook
+- `Week4-Project Brief-Dashboards & AI.pdf` — project brief (includes Tableau link)
 
-
-### 1) Download and Unzip the project bundle
-**Windows (PowerShell):**
-```powershell
-Expand-Archive -Path ".\project files.zip" -DestinationPath "." -Force
-
-**macOS/ Linux:**
-unzip -o "project files.zip" -d .
-
-# from the repo root, cd into the Week 04 folder
+## How to run
+```bash
+# from the repo root
 cd "Data Analysis Internship projects/Dashboards & AI"
+
+# 0) Download and Unzip the bundle (first time only)
+# Windows (PowerShell):
+# Expand-Archive -Path ".\project files.zip" -DestinationPath "." -Force
+# macOS/Linux:
+# unzip -o "project files.zip" -d .
 
 # 1) Create & activate a virtual env
 python -m venv .venv
@@ -28,7 +24,7 @@ python -m venv .venv
 # macOS/Linux:
 # source .venv/bin/activate
 
-# 2) Upgrade pip and install dependencies
+# 2) Upgrade pip and install deps
 python -m pip install --upgrade pip
 pip install -r requirements.txt   # create this file (see below)
 
@@ -38,7 +34,7 @@ python -m ipykernel install --user --name week4 --display-name "Python (week4)"
 # 4) Launch Jupyter
 jupyter lab .    # or: jupyter notebook
 
-requirements.txt
+# requirements.txt file
 pandas
 numpy
 matplotlib
