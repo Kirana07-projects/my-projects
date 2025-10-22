@@ -13,6 +13,7 @@
 ## Files in this folder
 - `customer_signups_Week1_task.ipynb` — code used for cleaning, EDA, and aggregations  
 - `Week 1 – Customer Sign-Up Behaviour & Data Quality Audit - Kirana Dhinakar Raj.pdf` — full write-up of this week’s work
+- 'datasets/' - CSV files used for this task
 
 ---
 
