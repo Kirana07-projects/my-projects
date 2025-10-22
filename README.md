@@ -49,7 +49,7 @@
 - **1 – Customer Sign-Up Behaviour & Data Quality** → [open folder](./Data%20Analysis%20Internship%20projects/Foundations%20of%20Data%20Analytics/)
 - **2 – Data Wrangling & Visual Exploration** → [open folder](./Data%20Analysis%20Internship%20projects/Data%20Wrangling%20%26%20Visual%20Exploration/)
 - **3 – Predictive Modelling with Python (Churn)** → [open folder](./Data%20Analysis%20Internship%20projects/Predictive%20Modelling%20with%20Python/)
-- **4 – Dashboards & AI** → [open folder](./Data%20Analysis%20Internship%20projects/Dashboards%20%26%20AI/)
+- **4 – Dashboards & AI** → [open folder](./Data%20Analysis%20Internship%20projects/Dashboards/)
 
 ###  Federated Learning (experiments & notes)
 - Code & experiments → [FederatedLearning_Code](./FederatedLearning_Code/) • PyTorch/TensorFlow • Flower (simulation). 
