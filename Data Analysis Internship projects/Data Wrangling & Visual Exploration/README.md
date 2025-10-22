@@ -36,5 +36,12 @@ python -m ipykernel install --user --name week2 --display-name "Python (week2)"
 # 4) Launch Jupyter
 jupyter lab .   # or: jupyter notebook
 
+# requirement.txt file
+pandas
+numpy
+matplotlib
+jupyter
+
+
 
 
