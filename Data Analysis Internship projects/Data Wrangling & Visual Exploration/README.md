@@ -3,7 +3,7 @@
 **Goal:** Clean and consolidate three datasets (`sales_data`, `product_info`, `customer_info`) to analyse weekly revenue trends, product performance, loyalty behaviour, payments, and delivery reliability across regions and segments.
 
 ## Files in this folder
-- [`Data Wrangling and Visual Exploration_week2.ipynb`](./Data%20Wrangling%20and%20Visual%20Exploration_week2.ipynb) — data wrangling, feature engineering, EDA, and charts  
+- `Data Wrangling and Visual Exploration_week2.ipynb` — data wrangling, feature engineering, EDA, and charts  
 - `Data Wrangling and Visual Exploration_week2.py` — Python export of the notebook  
 - `Week 2 – Sales and Customer behaviour Insights – Kirana Dhinakar Raj.pdf` — full write-up  
 - `datasets/` — CSV inputs used by the notebook (see **Data access**)
