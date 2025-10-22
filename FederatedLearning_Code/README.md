@@ -1,15 +1,15 @@
 # Federated Learning — Experiments & Code
 
-Federated Learning (FL) trains a shared model **without requiring the movement of raw data. Each client trains locally, sends **model updates** (not data) to a server, and the server aggregates them. This preserves privacy and reduces central data transfer while still producing a global model.
+Federated Learning (FL) trains a shared model without requiring the movement of raw data. Each client trains locally, sends **model updates** (not data) to a server, and the server aggregates them. This preserves privacy and reduces central data transfer while still producing a global model.
 
 ---
 
 ## What’s in here
 
 - **Simulation with Flower**: FL experiments using the Flower framework (local clients simulated on one machine).
-- **Algorithms**: **FedAvg** and **FedProx** (proximal term to stabilize heterogeneous client updates).
+- **Algorithms**: **FedAvg** and **FedProx** 
 - **Baselines**: Centralized (single dataset) training for comparison.
-- **Eval**: A **global test set** for apples-to-apples comparison across centralized vs FL runs (accuracy, precision/recall/F1, confusion matrix).
+- **Eval**: A **global test set** for comparison across centralized vs FL runs (accuracy, precision/recall/F1, confusion matrix).
 - **Use cases**:
   - *Industrial manufacturing* defect classification (private; **not included**).
   - *Public benchmark* dataset (**included for reference**) so you can run the pipeline.
