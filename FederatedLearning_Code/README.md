@@ -1,6 +1,6 @@
 # Federated Learning — Experiments & Code
 
-**Federated Learning (FL) trains a shared model **without requiring the movement of raw data**. Each client trains locally, sends **model updates** (not data) to a server, and the server aggregates them. This preserves privacy and reduces central data transfer while still producing a global model.
+Federated Learning (FL) trains a shared model **without requiring the movement of raw data. Each client trains locally, sends **model updates** (not data) to a server, and the server aggregates them. This preserves privacy and reduces central data transfer while still producing a global model.
 
 ---
 
